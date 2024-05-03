@@ -46,9 +46,20 @@ npm install
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
+///////images://///
 
 
 ////////////////ESPAÑOL/////////////////////
+![image](https://github.com/jolimadev/annata-challenge/assets/84105167/671472b4-e0cf-4139-96a0-9c3d3ad9154b)
+<br>
+Repository Details:
+![image](https://github.com/jolimadev/annata-challenge/assets/84105167/d92019fd-c9fa-4e62-bff4-6e99d62dd472)
+
+
+
+
+Build:
+![runBuildAnnataChallenge](https://github.com/jolimadev/annata-challenge/assets/84105167/e9974336-8aec-4a06-94cc-6c2d0c4e08da)
 
 
 <h1>Desafío Annata - Repositorios Mejor Rankeados</h1>
