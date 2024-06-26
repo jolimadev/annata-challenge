@@ -1,13 +1,23 @@
 
+<h1>Project: fetch and show GitHub Top List Repositories</h1> 
 
-GitHub Top List Repositories
+<br>
 
-Description
+![image of the unit test passed](testAprobados.png) 
+
+<br>
+
+![images of the responsive resolutions](responsiveImg.png)
+
+<br>
+
+#Description
 
 
 This project is a mini web application created to display a list of the top-ranked repositories using the GitHub API. The project is built using React.js and follows best coding practices.
 
-Features
+#Features
+
 Data Fetching: Retrieves data from the GitHub API using the native Fetch method of JavaScript.
 Repository Details: Displays repository details such as name, description, stars, and a link to view on GitHub.
 Responsive Design: Ensures a seamless experience across different devices using flexbox layout.
@@ -23,7 +33,7 @@ Flexbox
 CSS3
 Installation
 
-Clone the repository:
+- Clone the repository:
 
 git clone https://github.com/your-username/github-top-list-repositories.git
 
