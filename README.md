@@ -1,125 +1,61 @@
-# Annata Challenge - Top Ranked Repositories
 
-## Description
-This project is a mini web application created for the Annata Challenge. It uses the GitHub API to display a list of the top-ranked repositories. The project is built using React.js, Bootstrap 5, and follows best coding practices.
 
-### Features:
-- Retrieves data from the GitHub API using the native Fetch method of JavaScript to avoid external library dependencies.
-- Displays repository details such as name, description, stars, and a link to view on GitHub.
-- Utilizes colors from the Annata color palette to enhance visual appeal.
-- Includes Jest for testing to ensure application reliability.
-- Responsive design using flexbox for layout and styles.
-- Includes a GitHub logo to make the project visually more appealing.
+GitHub Top List Repositories
 
-## Technologies Used
-- React.js
-- Bootstrap 5
-- GitHub API
-- JavaScript Fetch Method
-- Jest
-- Flexbox
+Description
 
-## Installation
-1. Clone the repository:
-git clone https://github.com/your-username/annata-challenge.git
 
-2. Navigate to the project directory:
-cd annata-challenge
+This project is a mini web application created to display a list of the top-ranked repositories using the GitHub API. The project is built using React.js and follows best coding practices.
 
-3. Install dependencies:
+Features
+Data Fetching: Retrieves data from the GitHub API using the native Fetch method of JavaScript.
+Repository Details: Displays repository details such as name, description, stars, and a link to view on GitHub.
+Responsive Design: Ensures a seamless experience across different devices using flexbox layout.
+Interactive UI: Users can view more details about each repository by clicking a button.
+Testing: Includes Jest for testing to ensure application reliability.
+Enhanced Visuals: Utilizes a modern color palette and smooth transitions to enhance the user experience.
+
+#Technologies Used
+React.js
+JavaScript Fetch Method
+Jest
+Flexbox
+CSS3
+Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/github-top-list-repositories.git
+
+Navigate to the project directory:
+bash
+
+cd github-top-list-repositories
+Install dependencies:
+bash
+
 npm install
-
-
-## Usage
-1. Start the development server:
-
-2. Open your browser and go to [http://localhost:](http://localhost:) to view the application.
-
-## Credits
-- GitHub API for providing repository data.
-- Bootstrap for responsive design and styles.
-- Jest for application testing.
-- Annata color palette for enhancing visual appeal.
-
-## Author
-[@jolimadev](https://github.com/jolimadev)
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-///////images://///
-
-
-
-![image](https://github.com/jolimadev/annata-challenge/assets/84105167/671472b4-e0cf-4139-96a0-9c3d3ad9154b)
-<br>
-Repository Details:
-![image](https://github.com/jolimadev/annata-challenge/assets/84105167/d92019fd-c9fa-4e62-bff4-6e99d62dd472)
-
-
-
-
-Build:
-![runBuildAnnataChallenge](https://github.com/jolimadev/annata-challenge/assets/84105167/e9974336-8aec-4a06-94cc-6c2d0c4e08da)
-
-////////////////ESPAÑOL/////////////////////
-<h1>Desafío Annata - Repositorios Mejor Rankeados</h1>
-<br>
-#Descripción:
-Este proyecto es una mini aplicación web creada para el Desafío Annata. Utiliza la API de GitHub para mostrar una lista de los repositorios mejor rankeados. El proyecto está construido utilizando React.js, Bootstrap 5 y sigue las mejores prácticas de codificación.
-
-<u>Características:</u>
-<ul>
-Obtiene datos de la API de GitHub utilizando el método nativo Fetch de JavaScript para no depender de librerías externas.
-Muestra detalles del repositorio como nombre, descripción, estrellas y un enlace para ver en GitHub.
-Utiliza colores de la paleta de colores de Annata para mejorar el atractivo visual.
-Incluye Jest para realizar pruebas y garantizar la fiabilidad de la aplicación.
-Diseño responsive utilizando flexbox para diseño y estilos.
-Incluye un logo de GitHub para hacer que el proyecto sea más atractivo visualmente.
-</ul>
-<ol>
-<li>
-<li>Tecnologías Utilizadas</li>
-<li>React.js</li>
-<li>Bootstrap 5</li>
-<li>API de GitHub</li>
-<li>Método Fetch de JavaScript</li>
-<li>Jest</li>
-<li>Flexbox</li>
-</ol>
-<br>
-<hr>
-
-#Instalación
-Clona el repositorio:
-git clone https://github.com/your-username/annata-challenge.git
-
-- Navega al directorio del proyecto:
-
-cd annata-challenge
-
--Instala las dependencias:
-npm install
-or
-yarn install
-
-
-Inicia el servidor de desarrollo:
+Usage
+Start the development server:
+bash
 
 npm start
-
-- Abre tu navegador y ve a http://localhost: para ver la aplicación.
-
-Créditos:
-
-- API de GitHub por proporcionar los datos de los repositorios.
-- Bootstrap por el diseño responsive y los estilos.
-- Jest por las pruebas de la aplicación.
-- Paleta de colores de Annata por mejorar el atractivo visual.
-
-Autor
-@jolimadev
-Licencia
-Este proyecto está bajo la Licencia MIT.
+Open your browser and go to http://localhost to view the application.
 
 
+Testing
+To run the tests, use the following command:
+npm test
 
+
+<h1>Learnings and Improvements</h1>
+
+- Vite Compatibility: Initially faced issues with Vite and Jest compatibility. Switched to Create React App for better compatibility.
+
+- React v18 Testing: Managed to resolve issues with testing-library hooks and React v18.
+
+- Responsive Design: Improved the responsiveness and user experience of the application.
+
+- Error Handling: Enhanced error handling and loading states for better user feedback.
+
+- UX Improvements: Added smooth transitions and improved the overall visual appeal of the application.
